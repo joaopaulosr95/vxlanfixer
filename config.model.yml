@@ -1,0 +1,12 @@
+docker:
+  host: "127.0.0.1"
+  port: 2375
+consul:
+  host: "127.0.0.1"
+  port: 8500
+netns: "overlayNetwork"
+device: "vxlan0"
+
+# The parameter below should be set to True in order to
+# print the check results and exit instead of fixing them
+dry_run: False
